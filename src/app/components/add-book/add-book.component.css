@@ -1,0 +1,107 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.suggestions {
+  background: white;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.suggestions li:hover {
+  background-color: #e9ecef;
+}
+
+.suggestions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.suggestions::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+}
+
+.suggestions::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+button.btn.btn-secondary.ml-2 {
+  height: calc(2.25rem + 2px); 
+  margin-left: 0.5rem;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-link i {
+  font-size: 1.2rem;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.form-control {
+  flex: 1;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .mr-2 {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

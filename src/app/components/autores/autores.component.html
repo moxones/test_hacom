@@ -1,0 +1,36 @@
+<div class="container mt-4">
+    <div class="header d-flex justify-content-center align-items-center mb-3">
+        <h2 class="mr-3">Lista de Autores</h2>
+        <button class="btn btn-primary" (click)="openAddAuthorDialog()">
+            <i class="fas fa-plus mr-2"></i>Nuevo Autor
+        </button>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Género</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let author of authors; let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ author.name }}</td>
+                <td>{{ author.genre }}</td>
+                <td class="text-center">
+                    <button class="btn btn-danger btn-sm" (click)="deleteAuthor(author.id)" [disabled]="true">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr *ngIf="authors.length === 0">
+                <td colspan="4" class="text-center">No hay autores disponibles</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="text-right">
+        Total de autores: {{ authors.length }}
+    </div>
+</div>

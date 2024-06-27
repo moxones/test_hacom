@@ -1,0 +1,59 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-link i {
+  font-size: 1.2rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .mr-2 {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

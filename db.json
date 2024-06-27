@@ -1,0 +1,123 @@
+{
+  "books": [
+    {
+      "id": "1719424290343",
+      "title": "El extranjero",
+      "description": "El extranjero suele asociarse a la filosofía del absurdo y al existencialismo, aunque Camus siempre se distanció de esta última etiqueta",
+      "author": 1719424238112,
+      "published": true,
+      "year": 1943,
+      "registrationDate": "2024-06-27T18:59:05.161Z"
+    },
+    {
+      "id": "1719514799380",
+      "title": "La ciudad y los perros",
+      "description": " cuenta a través de la denuncia del machismo y la violencia de un colegio militar de Lima, una crítica a la sociedad peruana. Narra la brutalidad encarecida ejercida en un grupo de jóvenes alumnos de un colegio militar en Lima",
+      "author": "1719424225764",
+      "published": false,
+      "year": 1963,
+      "registrationDate": "2024-06-27T18:59:59.380Z"
+    },
+    {
+      "id": "1719517329837",
+      "title": "Pantaleon y las visitadoras",
+      "description": "Su primer tiraje consta de cien mil ejemplares, hasta ese momento la cifra más alta de las lanzadas en sus primeras ediciones",
+      "author": "1719424225764",
+      "published": false,
+      "year": 1973,
+      "registrationDate": "2024-06-27T19:42:09.837Z"
+    },
+    {
+      "id": 1719517772045,
+      "title": "La peste",
+      "description": "Cuenta la historia de unos doctores que descubren el sentido de la solidaridad en su labor humanitaria en la ciudad argelina de Orán, mientras esta es azotada por una epidemia de peste.",
+      "author": "1719424238112",
+      "published": true,
+      "year": 1947,
+      "registrationDate": "2024-06-27T19:49:32.045Z"
+    },
+    {
+      "id": 1719517810849,
+      "title": "El mito de sísifo",
+      "description": "El ensayo se abre con la siguiente cita de Píndaro: No te afanes, alma mía, por una vida inmortal, pero agota el ámbito de lo posible",
+      "author": "1719424238112",
+      "published": true,
+      "year": 1942,
+      "registrationDate": "2024-06-27T19:50:10.849Z"
+    },
+    {
+      "id": 1719517875147,
+      "title": "La caida",
+      "description": "Es una corta novela filosófica publicada en París por Éditions Gallimard en 1956, un año antes de que Camus fuera premiado con el Nobel de Literatura",
+      "author": "1719424238112",
+      "published": true,
+      "year": 1956,
+      "registrationDate": "2024-06-27T19:51:15.147Z"
+    },
+    {
+      "id": 1719518011326,
+      "title": "Libro EJemplo",
+      "description": "este es solo un ejemplo",
+      "author": "1719424140702",
+      "published": false,
+      "year": 1956,
+      "registrationDate": "2024-06-27T19:53:31.326Z"
+    }
+  ],
+  "authors": [
+    {
+      "id": "1719424120004",
+      "name": "Gabriel García Márquez",
+      "genre": "Realismo Mágico"
+    },
+    {
+      "id": "1719424130728",
+      "name": "Ernest Hemingway",
+      "genre": "Novela Realista"
+    },
+    {
+      "id": "1719424140702",
+      "name": "Toni Morrison",
+      "genre": "Novela"
+    },
+    {
+      "id": "1719424152051",
+      "name": "Pablo Neruda",
+      "genre": "Poesía"
+    },
+    {
+      "id": "1719424159956",
+      "name": "Alice Munro",
+      "genre": "Cuento"
+    },
+    {
+      "id": "1719424170867",
+      "name": "Hermann Hesse",
+      "genre": "Novela Filosófica"
+    },
+    {
+      "id": "1719424179647",
+      "name": "José Saramago",
+      "genre": "Novela"
+    },
+    {
+      "id": "1719424188916",
+      "name": "Kazuo Ishiguro",
+      "genre": "Novela Distópica"
+    },
+    {
+      "id": "1719424225764",
+      "name": "Mario Vargas Llosa",
+      "genre": "Novela"
+    },
+    {
+      "id": "1719424238112",
+      "name": "Albert Camus",
+      "genre": "Novela Existencialista"
+    }
+  ],
+  "user": {
+    "name": "Jaylon Dias",
+    "photo": "assets/profile-photo.png"
+  }
+}

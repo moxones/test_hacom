@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>Nuevo Autor</h2>
+<form [formGroup]="authorForm" (ngSubmit)="onSubmit()">
+  <mat-dialog-content>
+    <div class="form-group">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" class="form-control" formControlName="name" required>
+    </div>
+    <div class="form-group">
+      <label for="genre">Género</label>
+      <input type="text" id="genre" class="form-control" formControlName="genre" required>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button type="button" class="btn btn-secondary mr-2" (click)="onCancel()">Cancelar</button>
+    <button type="submit" class="btn btn-primary" [disabled]="!authorForm.valid">Guardar</button>
+  </mat-dialog-actions>
+</form>

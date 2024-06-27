@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.app-container {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 80px;
+    flex-grow: 1;
+    transition: margin-left 0.3s;
+}
+
+.top-header {
+    background-color: #f8f9fa;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+@media (min-width: 992px) {
+    .main-content {
+        margin-left: 250px;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

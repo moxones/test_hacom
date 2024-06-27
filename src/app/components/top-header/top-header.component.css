@@ -1,0 +1,45 @@
+.top-header {
+  background-color: #f8f9fa;
+  padding: 0 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand span {
+  font-size: 1.5rem;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin-left: 10px;
+}
+
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logout-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.logout-icon:hover {
+  transform: scale(1.1);
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1.5rem;
+}
